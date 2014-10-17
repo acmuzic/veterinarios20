@@ -1,0 +1,131 @@
+
+
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*-----------------------preguntas--------------------------*/
+
+/*-------protInit3--------------------*/
+.bg3Prot {background:url(../img/bg3ProtIni.png);background-repeat:repeat-y;height:500px	width:1100px;}
+.perro3ProtIni{ position:relative; top:-275px; left:20px; width:205px; height:202px;}
+.botones3ProtIni{padding: 45px 0 0 150px;}
+.protBtn5 {position:relative; background:url(../img/3-protA.png); background-repeat:no-repeat; width:450px; height:103px; cursor:pointer; float:left; margin-right:60px; margin-bottom:50px;}
+.protBtn6 {position:relative; background:url(../img/3-protB.png); background-repeat:no-repeat; width:450px; height:103px; cursor:pointer; float:left; margin-bottom:50px;}
+.protBtn7 {position:relative; background:url(../img/3-protC.png); background-repeat:no-repeat; width:450px; height:103px; cursor:pointer; float:left;margin-right:60px;}
+.protBtn8 {position:relative; background:url(../img/3-protD.png); background-repeat:no-repeat; width:450px; height:103px; cursor:pointer; float:left;}
+.protBtn5:hover { background:url(../img/3-protAHover.png); background-repeat:no-repeat;}
+.protBtn6:hover  {background:url(../img/3-protBHover.png); background-repeat:no-repeat;}
+.protBtn7:hover  {background:url(../img/3-protCHover.png); background-repeat:no-repeat;}
+.protBtn8:hover  {background:url(../img/3-protDHover.png); background-repeat:no-repeat;}
+
+.resultado3ProtInic{padding: 120px 0 0 133px; position:relative; top:-255px}
+
+.protBtn5R {position:relative; background:url(../img/3-protAR.png); background-repeat:no-repeat; width:466px; height:104px; cursor:pointer; float:left; margin-right:48px; margin-bottom:50px;}
+.protBtn6R{position:relative; background:url(../img/3-protBR.png); background-repeat:no-repeat; width:466px; height:104px; cursor:pointer; float:left; margin-bottom:50px;}
+.protBtn7R{position:relative; background:url(../img/3-protCR.png); background-repeat:no-repeat; width:466px; height:104px; cursor:pointer; float:left;margin-right:48px;}
+.protBtn8R {position:relative; background:url(../img/3-protDR.png); background-repeat:no-repeat; width:466px; height:104px; cursor:pointer; float:left;}
+
+
+
+
+/*-------vitalidadt3--------------------*/
+.bg3Vita {background:url(../img/bg3ProtIni.png);background-repeat:repeat-y;height:500px	width:1100px;}
+.perro3Vita{ position:relative; top:-245px; left:30px; width:205px; height:202px;}
+.botones3Vita{padding: 65px 0 0 150px;}
+.vitaBtn5 {position:relative; background:url(../img/3-vitaA.png); background-repeat:no-repeat; width:450px; height:103px; cursor:pointer; float:left; margin-right:60px; margin-bottom:50px;}
+.vitaBtn6 {position:relative; background:url(../img/3-vitaB.png); background-repeat:no-repeat; width:450px; height:103px; cursor:pointer; float:left; margin-bottom:50px;}
+.vitaBtn7 {position:relative; background:url(../img/3-vitaC.png); background-repeat:no-repeat; width:450px; height:103px; cursor:pointer; float:left;margin-right:60px;}
+.vitaBtn8 {position:relative; background:url(../img/3-vitaD.png); background-repeat:no-repeat; width:450px; height:103px; cursor:pointer; float:left;}
+.vitaBtn5:hover { background:url(../img/3-vitaAHover.png); background-repeat:no-repeat;}
+.vitaBtn6:hover  {background:url(../img/3-vitaBHover.png); background-repeat:no-repeat;}
+.vitaBtn7:hover  {background:url(../img/3-vitaCHover.png); background-repeat:no-repeat;}
+.vitaBtn8:hover  {background:url(../img/3-vitaDHover.png); background-repeat:no-repeat;}
+
+.resultado3Vita{padding: 120px 0 0 133px; position:relative; top:-256px;  width:1100px;}
+
+.vitaBtn5R {position:relative; background:url(../img/3-vitaAR.png); background-repeat:no-repeat; width:466px; height:104px; cursor:pointer; float:left; margin-right:45px; margin-bottom:50px;}
+.vitaBtn6R{position:relative; background:url(../img/3-vitaBR.png); background-repeat:no-repeat; width:466px; height:104px; cursor:pointer; float:left; margin-bottom:50px;}
+.vitaBtn7R{position:relative; background:url(../img/3-vitaCR.png); background-repeat:no-repeat; width:466px; height:104px; cursor:pointer; float:left;margin-right:45px;}
+.vitaBtn8R {position:relative; background:url(../img/3-vitaDR.png); background-repeat:no-repeat; width:466px; height:104px; cursor:pointer; float:left;}
+
+
+
+
+
+/*-------forma3--------------------*/
+.bg3Forma {background:url(../img/bg3ProtIni.png);background-repeat:repeat-y;height:500px	width:1100px;}
+.perro3Forma{ position:relative; top:-245px; left:30px; width:205px; height:202px;}
+.botones3Forma{padding: 25px 0 0 160px;}
+.formaBtn5 {position:relative; background:url(../img/3-formaA.png); background-repeat:no-repeat; width:448px; height:110px; cursor:pointer; float:left; margin-right:60px; margin-bottom:10px;}
+.formaBtn6 {position:relative; background:url(../img/3-formaB.png); background-repeat:no-repeat; width:448px; height:110px; cursor:pointer; float:left; margin-bottom:10px;}
+.formaBtn7 {position:relative; background:url(../img/3-formaC.png); background-repeat:no-repeat; width:448px; height:232px; cursor:pointer; float:left;margin-right:60px;}
+.formaBtn8 {position:relative; background:url(../img/3-formaD.png); background-repeat:no-repeat; width:448px; height:110px; cursor:pointer; float:left; margin-bottom:10px;}
+.formaBtn9 {position:relative; background:url(../img/3-formaE.png); background-repeat:no-repeat; width:448px; height:110px; cursor:pointer; float:left;}
+.formaBtn5:hover { background:url(../img/3-formaAHover.png); background-repeat:no-repeat;}
+.formaBtn6:hover  {background:url(../img/3-formaBHover.png); background-repeat:no-repeat;}
+.formaBtn7:hover  {background:url(../img/3-formaCHover.png); background-repeat:no-repeat;}
+.formaBtn8:hover  {background:url(../img/3-formaDHover.png); background-repeat:no-repeat;}
+.formaBtn9:hover  {background:url(../img/3-formaEHover.png); background-repeat:no-repeat;}
+
+.resultado3Forma{padding: 120px 0 0 123px; position:relative; top:-352px; width:1000px;}
+
+.formaBtn5R {position:relative; background:url(../img/3-formaAR.png); background-repeat:no-repeat; width:485px; height:110px; cursor:pointer; float:left; margin-right:24px;  margin-bottom:10px;}
+.formaBtn6R{position:relative; background:url(../img/3-formaBR.png); background-repeat:no-repeat; width:485px; height:110px; cursor:pointer; float:left; margin-bottom:10px;}
+.formaBtn7R{position:relative; background:url(../img/3-formaCR.png); background-repeat:no-repeat; width:485px; height:232px; cursor:pointer; float:left; margin-right:24px;}
+.formaBtn8R {position:relative; background:url(../img/3-formaDR.png); background-repeat:no-repeat; width:485px; height:110px; cursor:pointer; float:left;margin-bottom:10px;}
+.formaBtn9R {position:relative; background:url(../img/3-formaER.png); background-repeat:no-repeat; width:485px; height:110px; cursor:pointer; float:left;}
+
+
+
+/*-------sen3-----------------*/
+.bg3Sen {background:url(../img/bg3ProtIni.png);background-repeat:repeat-y;height:500px	width:1100px;}
+.perro3Sen{ position:relative; top:-245px; left:30px; width:205px; height:202px;}
+.botones3Sen{padding: 25px 0 0 160px;}
+.senBtn5 {position:relative; background:url(../img/3-senA.png); background-repeat:no-repeat; width:444px; height:218px; cursor:pointer; float:left; margin-right:60px; margin-bottom:10px;}
+.senBtn6 {position:relative; background:url(../img/3-senB.png); background-repeat:no-repeat; width:444px; height:218px; cursor:pointer; float:left; margin-bottom:10px;}
+.senBtn7 {position:relative; background:url(../img/3-senC.png); background-repeat:no-repeat; width:444px; height:110px; cursor:pointer; float:left;margin-right:60px;}
+.senBtn8 {position:relative; background:url(../img/3-senD.png); background-repeat:no-repeat; width:444px; height:110px; cursor:pointer; float:left; margin-bottom:10px;}
+
+.senBtn5:hover { background:url(../img/3-senAHover.png); background-repeat:no-repeat;}
+.senBtn6:hover  {background:url(../img/3-senBHover.png); background-repeat:no-repeat;}
+.senBtn7:hover  {background:url(../img/3-senCHover.png); background-repeat:no-repeat;}
+.senBtn8:hover  {background:url(../img/3-senDHover.png); background-repeat:no-repeat;}
+.senBtn9:hover  {background:url(../img/3-senEHover.png); background-repeat:no-repeat;}
+
+.resultado3Sen{padding: 120px 0 0 112px; position:relative; top:-364px; width:1050px;}
+
+.senBtn5R {position:relative; background:url(../img/3-senAR.png); background-repeat:no-repeat; width:492px; height:232px; cursor:pointer; float:left; margin-right:35px;  margin-bottom:10px;}
+.senBtn6R{position:relative; background:url(../img/3-senBR.png); background-repeat:no-repeat; width:492px; height:232px; cursor:pointer; float:left; margin-bottom:10px;}
+.senBtn7R{position:relative; background:url(../img/3-senCR.png); background-repeat:no-repeat; width:485px; height:232px; cursor:pointer; float:left; margin-right:38px;}
+.senBtn8R {position:relative; background:url(../img/3-senDR.png); background-repeat:no-repeat; width:485px; height:110px; cursor:pointer; float:left;margin-bottom:10px;}
+.senBtn9R {position:relative; background:url(../img/3-senER.png); background-repeat:no-repeat; width:485px; height:110px; cursor:pointer; float:left;}
+
+
+
+/*-------protInit3--------------------*/
+.bg3Plus {background:url(../img/bg3ProtIni.png);background-repeat:repeat-y;height:500px	width:1100px;}
+.perro3PlusIni{ position:relative; top:-275px; left:20px; width:205px; height:202px;}
+.botones3PlusIni{padding: 45px 0 0 150px;}
+.plusBtn5 {position:relative; background:url(../img/3-plusA.png); background-repeat:no-repeat; width:447px; height:106px; cursor:pointer; float:left; margin-right:60px; margin-bottom:10px;}
+.plusBtn6 {position:relative; background:url(../img/3-plusB.png); background-repeat:no-repeat; width:447px; height:106px; cursor:pointer; float:left; margin-bottom:10px;}
+.plusBtn7 {position:relative; background:url(../img/3-plusC.png); background-repeat:no-repeat; width:447px; height:106px; cursor:pointer; float:left;margin-right:60px;margin-bottom:10px;}
+.plusBtn8 {position:relative; background:url(../img/3-plusD.png); background-repeat:no-repeat; width:447px; height:106px; cursor:pointer; float:left;margin-bottom:10px;}
+.plusBtn9 {position:relative; background:url(../img/3-plusE.png); background-repeat:no-repeat; width:447px; height:106px; cursor:pointer; float:left;margin-right:60px;margin-bottom:10px;}
+.plusBtn10 {position:relative; background:url(../img/3-plusF.png); background-repeat:no-repeat; width:447px; height:106px; cursor:pointer; float:left;}
+
+.plusBtn5:hover { background:url(../img/3-plusAHover.png); background-repeat:no-repeat;}
+.plusBtn6:hover  {background:url(../img/3-plusBHover.png); background-repeat:no-repeat;}
+.plusBtn7:hover  {background:url(../img/3-plusCHover.png); background-repeat:no-repeat;}
+.plusBtn8:hover  {background:url(../img/3-plusDHover.png); background-repeat:no-repeat;}
+.plusBtn9:hover  {background:url(../img/3-plusEHover.png); background-repeat:no-repeat;}
+.plusBtn10:hover  {background:url(../img/3-plusFHover.png); background-repeat:no-repeat;}
+
+.resultado3PlusInic{padding: 120px 0 0 3px; position:relative; top:-348px; left:108px; width:1100px;}
+
+.plusBtn5R {position:relative; background:url(../img/3-plusAR.png); background-repeat:no-repeat; width:487px; height:104px; cursor:pointer; float:left;margin-right:15px; margin-bottom:10px;}
+.plusBtn6R{position:relative; background:url(../img/3-plusBR.png); background-repeat:no-repeat; width:487px; height:104px; cursor:pointer; float:left; margin-bottom:10px;}
+.plusBtn7R{position:relative; background:url(../img/3-plusCR.png); background-repeat:no-repeat; width:487px; height:104px; cursor:pointer; float:left;margin-right:15px; margin-bottom:10px;}
+.plusBtn8R {position:relative; background:url(../img/3-plusDR.png); background-repeat:no-repeat; width:487px; height:104px; cursor:pointer; float:left;margin-bottom:10px;}
+.plusBtn9R{position:relative; background:url(../img/3-plusER.png); background-repeat:no-repeat; width:487px; height:104px; cursor:pointer; float:left;margin-right:15px; margin-bottom:10px;}
+.plusBtn10R {position:relative; background:url(../img/3-plusFR.png); background-repeat:no-repeat; width:487px; height:104px; cursor:pointer; float:left;}
+
+

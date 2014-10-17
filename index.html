@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Pro Plan</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<link href="css/style.css" rel="stylesheet">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.transit.min"></script>
+</head>
+
+<body>
+<!--main-->
+<div class="main">
+  <div class="headerhome"><img src="img/head.png"></div>
+  <div class="perroHome"><a href="comida-perros.html"><img src="img/ent_perros.png"></a></div>
+  <div class="comidaperro"><a href="#" class="abrirTags" ><img src="img/btncomperro.png"></a></div>
+  <div class="gatoHome"><a href="comida-gatos.html"><img src="img/ent_gatos.png"></a></div>
+  <div class="comidagato"><a  href="#" class="abrirTags2"><img src="img/btncomgato.png"></a></div>
+	<div class="btnvete"><a href="#"><img src="img/btnvetes.png"></a></div>
+    <div class="btncalendar"><a href="nuestro-calendario102014.html"><img src="img/btncalendar.png"></a></div>
+    <div class="btnaccede"><a href="#"><img src="img/btnaccede.png"></a></div>
+<!---modal perro--> 
+<div id="shadow1" style="display:none">
+<div id="vercomidaperro">
+ <div class="imgbtnperro"><img src="img/btncomperro.png"></div>
+ <div class="listacomida">
+   <ul>
+     <li><a href="perro/optistart/optistart-2.html"><img src="img/p-puppy.png"></a></li>
+     <li><a href="perro/optilife/optilife-2.html"><img src="img/p-adult.png"></a></li>
+     <li><a href="perro/optiage/optiage-2.html"><img src="img/p-7+.png"></a></li>
+     <li><a href="perro/optifit/optifit-2.html"><img src="img/p-reduced.png"></a></li>
+     <li><a href="perro/optiderma/optiderma-2.html"><img src="img/p-sensitive.png"></a></li>
+     <li><a href="perro/optifortis/optifortis-2.html"><img src="img/p-delicate.png"></a></li>
+     <li><a href="perro/optienrich/optienrich-2.html"><img src="img/p-exigent.png"></a></li>
+   </ul>
+   <div class="cierramod"><a href="#" id="cierracom1"><img src="img/btncerrrar.png"></a></div>
+ </div>
+</div>
+</div>
+<!---/modal perro--> 
+<!---modal gato--> 
+<div id="shadow2" style="display:none">
+<div id="vercomidagato">
+ <div class="imgbtngato"><img src="img/btncomgato.png"></div>
+ <div class="listacomida">
+   <ul>
+     <li><a href="gato/optistart/optistart-2.html"><img src="img/g-kitten.png"></a></li>
+     <li><a href="gato/optidigest/optidigest-2.html"><img src="img/g-adult.png"></a></li>
+     <li><a href="gato/optirenal/optirenal-2.html"><img src="img/g-indoor.png"></a></li>
+     <li><a href="gato/optirenal2/optirenal-2.html"><img src="img/g-sterilized.png"></a></li>
+     <li><a href="gato/longevis/longevis-2.html"><img src="img/g-vital.png"></a></li>
+     <li><a href="gato/reduced/reduced-2.html"><img src="img/g-reduced.png"></a></li>
+     <li><a href="gato/urinaria/urinaria-2.html"><img src="img/g-urinary.png"></a></li>
+   </ul>
+   <div class="cierramod"><a href="#" id="cierracom2"><img src="img/btncerrrar.png"></a></div>
+ </div>
+</div>
+</div>
+<!---/modal gato--> 
+
+</div>
+<!---/main--> 
+
+<div id="vercomidagato" ></div>
+
+
+
+<script>
+$(".abrirTags").click(function(){
+  document.getElementById("shadow1").style.display = "block";
+ }); 
+ $(".abrirTags2").click(function(){
+  document.getElementById("shadow2").style.display = "block";
+ }); 
+ $("#cierracom1").click(function(){
+  document.getElementById("shadow1").style.display = "none";
+ }); 
+ $("#cierracom2").click(function(){
+  document.getElementById("shadow2").style.display = "none";
+ }); 
+</script>
+</body>
+</html>

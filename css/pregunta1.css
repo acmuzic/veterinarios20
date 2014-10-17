@@ -1,0 +1,139 @@
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*-----------------------rueda------------------------------*/
+
+.bajar {
+	height:5px;
+	display:block;
+}
+.ruedaGeneral {
+	width:428px;
+	height:428px;
+	margin: 0 auto;
+	position:relative;
+	top:-428px;
+	z-index:-20;
+	
+ 
+}
+.ruedaProt {
+	width:428px;
+	height:428px;
+	margin: 0 auto;
+	z-index:500;
+	
+}
+
+
+.cartel {
+	width:300px;
+	height:57px;
+	position:relative;
+	top:-1090px;
+	left:460px;
+	z-index:-200;
+	background:url(../img/optistart.jpg);
+	font-size:52px;
+	text-align:center;
+	color:#333333;
+	padding-right:12px;
+	padding-top:73px;
+	font-family: 'UniversBoldCnOb', Verdana, sans-serif;
+}
+.productos {
+	position:relative;
+	top:-860px;
+	left:420px;
+	list-style:none;
+	z-index:800;
+	opacity:0;
+}
+.productos li {
+	display:inline;
+	height:350px;
+	font-size:23px;
+	color:#C0272D;
+	float:left;
+	width:139px;
+	height:291px;
+	text-align:center;
+}
+.correcto {
+	color:#009145;
+	font-size:26px;
+}
+.resulC {
+	background:url(../img/correcto.png);
+	background-repeat:no-repeat;
+	position:relative;
+	top:-207px;
+	left:14px;
+	width:110px;
+	height:131px;
+}
+.resulI {
+	background:url(../img/incorrecto.png);
+	background-repeat:no-repeat;
+	position:relative;
+	top:-225px;
+	width:139px;
+	height:241px;
+}
+.productos li a {
+	width:139px;
+	height:241px;
+	float:left;
+}
+.productos li span {
+	width:139px;
+	height:241px;
+	clear:both;
+}
+.tamanoImg {
+	width:139px;
+	height:241px;
+	float:left;
+}  
+.ProdPuppy        {background:url(../img/prod1.jpg);	background-repeat:no-repeat;}
+.ProdPuppy:hover {	background:url(../img/prod1Hover.jpg);	background-repeat:no-repeat;}
+
+.ProdAdult       {background:url(../img/prod2.jpg);	background-repeat:no-repeat;}
+.ProdAdult:hover {background:url(../img/prod2Hover.jpg);background-repeat:no-repeat;}
+
+.ProdReduced       {background:url(../img/prod3.jpg);background-repeat:no-repeat;}
+.ProdReduced:hover {background:url(../img/prod3Hover.jpg);background-repeat:no-repeat;}
+
+.ProdSensitive       {background:url(../img/prod4.jpg);	background-repeat:no-repeat;}
+.ProdSensitive:hover {background:url(../img/prod4Hover.jpg);	background-repeat:no-repeat;}
+
+.ProdMas7       {background:url(../img/prod5.jpg);background-repeat:no-repeat;}
+.ProdMas7:hover {background:url(../img/prod5Hover.jpg);background-repeat:no-repeat;}
+
+.resultado {
+	position:relative;
+	top:-1150px;
+	left:420px;
+	list-style:none;
+	z-index:800;
+	opacity:0;
+}
+.resultado li {
+	display:inline;
+	height:350px;
+	font-size:23px;
+	color:#C0272D;
+	float:left;
+	width:139px;
+	height:291px;
+	text-align:center;
+}
+.resultado li a {
+	width:139px;
+	height:241px;
+	float:left;
+}
+.resultado li span {
+	width:139px;
+	height:241px;
+	clear:both;
+}
