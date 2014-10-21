@@ -9,11 +9,11 @@
 .siguiente{ position:absolute; top:700px; left:1050px }
 .anterior{position:absolute; top:700px; left:20px}
 
-.siguiente, .anterior{opacity: 0.8;  filter: alpha(opacity=80); /* For IE8 and earlier */}
+.siguiente, .anterior{opacity:0;  filter: alpha(opacity=0); /* For IE8 and earlier */}
 
 .titulocatint{display:block; position:absolute; top:10px; left:520px}
 
-.basetextos{ background:url(../img/base-textos.png) no-repeat; width:1139px; height:518px; position:absolute; top:170px; left:60px}
+.basetextos{ background:url(../img/base-textos.png) no-repeat; width:1139px; height:518px; position:absolute; top:170px; left:60px;}
 
 /*-----------------------optistart--------------------------*/
 .optistarttxt1{position:absolute; top:220px; left:120px}
@@ -204,3 +204,4 @@
 .urinariatxt16{position:absolute; top:520px; left:100px}
 .urinariatxt17{position:absolute; top:240px; left:690px}
 
+.main{opacity:0;}

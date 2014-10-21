@@ -8,7 +8,7 @@
 <meta name="author" content="">
 <link href="css/style.css" rel="stylesheet">
 <script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.transit.min"></script>
+<script type="text/javascript" src="js/jquery.transit.min.js"></script>
 </head>
 
 <body>
@@ -81,6 +81,30 @@ $(".abrirTags").click(function(){
  $("#cierracom2").click(function(){
   document.getElementById("shadow2").style.display = "none";
  }); 
+ 
+$(".perroHome").animate({ opacity: 1}, 500, function() {
+    // Animation complete.
+	$(".comidaperro").animate({ opacity: 1}, 500, function() {
+    // Animation complete.
+		$(".gatoHome").animate({ opacity: 1}, 500, function() {
+    		// Animation complete. 
+			$(".comidagato").animate({ opacity: 1}, 500, function() {
+    		// Animation complete.
+				$(".btnvete").animate({ opacity: 1}, 500, function() {
+				// Animation complete.
+						$(".btncalendar").animate({ opacity: 1}, 500, function() {
+						// Animation complete.
+							$(".btnaccede").animate({ opacity: 1}, 500, function() {
+							// Animation complete.
+							});
+						});
+				});
+			});
+		});
+	});
+});
+ 
+ 
 </script>
 </body>
 </html>

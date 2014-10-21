@@ -97,23 +97,25 @@ h6 {
 	top:150px;
 	left:170px;
 	float:left;
+	opacity:0;
 }
 .gatoHome {
 	position: absolute;
 	top:150px;
 	left:750px;
 	float:left;
+	opacity:0;
 }
 .perroHome:hover, .gatoHome:hover, .comidaperro:hover, .comidagato:hover, .btnvete:hover, .btncalendar:hover, .btnaccede:hover, .listacomida li a:hover, .cierramod:hover {
     opacity: 0.8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
 }
-.comidaperro{ position:absolute; top:400px; left:100px}
-.comidagato{  position:absolute; top:400px; left:685px}
+.comidaperro{ position:absolute; top:400px; left:100px; opacity:0;}
+.comidagato{  position:absolute; top:400px; left:685px; opacity:0;}
 
-.btnvete{ position:absolute; top:560px; left:50px}
-.btncalendar{ position:absolute; top:560px; left:480px}
-.btnaccede{position:absolute; top:560px; left:820px}
+.btnvete{ position:absolute; top:560px; left:50px; opacity:0;}
+.btncalendar{ position:absolute; top:560px; left:480px; opacity:0;}
+.btnaccede{position:absolute; top:560px; left:820px; opacity:0;}
 
 #shadow1, #shadow2 { width:1277px; height:797px; background: url(../img/productoalpha.png); position:absolute}
 
@@ -129,7 +131,7 @@ h6 {
 /*----------------------------------------------------------*/
 /*-----------------------index perro-------------------------------*/
 
-.ruedaperro1{ position:absolute; top:160px; left:630px}
+.ruedaperro1{ position:absolute; top:160px; left:630px; opacity:0;}
 
 #nav1 {	position:absolute; top:600px; left:60px}
 #nav1 ul {margin:0; padding:0; list-style-type:none; display:block}
@@ -174,8 +176,8 @@ ul#menu3 li .menu3-2:hover{ background:url(../img/navback-2c-h.png)}
 /*----------------------------------------------------------*/
 /*----------------------------------------------------------*/
 /*-----------------------index gato-------------------------------*/
-.etapas{ position:absolute; left:600px; top:200px}
-.condiciones{position:absolute; left:600px; top:450px}
+.etapas{ position:absolute; left:600px; top:200px; opacity:0;}
+.condiciones{position:absolute; left:600px; top:450px; opacity:0;}
 .etapas ul, .condiciones ul{margin:0; padding:0; list-style-type:none; display:block }
 .etapas ul li, .condiciones ul li { display:inline-block}
 .etapas ul li:hover, .condiciones ul li:hover { opacity: 0.8;  filter: alpha(opacity=80); /* For IE8 and earlier */}

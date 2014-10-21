@@ -4,16 +4,16 @@
 
 .header {display:block; width:249px; height:95px; position:absolute; top:20px; left:20px}
 .ruedapeque{ position:absolute; top:15px; left:1100px}
-.titcategoria1g{ width:438px; height:163px; position:absolute; top:300px; left:20px}
-.portada{position:absolute; top:140px; left:600px}
+.titcategoria1g{ width:438px; height:163px; position:absolute; top:300px; left:20px; opacity:0;}
+.portada{position:absolute; top:140px; left:600px; opacity:0;}
 .siguiente{ position:absolute; top:700px; left:1050px }
 .anterior{position:absolute; top:700px; left:20px}
 
-.siguiente, .anterior{opacity: 0.8;  filter: alpha(opacity=80); /* For IE8 and earlier */}
+.siguiente, .anterior{opacity:0;  filter: alpha(opacity=0); /* For IE8 and earlier */}
 
 .titulocatint{display:block; position:absolute; top:10px; left:500px}
 
-.basetextos{ background:url(../img/base-textos.png) no-repeat; width:1139px; height:518px; position:absolute; top:160px; left:60px}
+.basetextos{ background:url(../img/base-textos.png) no-repeat; width:1139px; height:518px; position:absolute; top:160px; left:60px;}
 
 /*-----------------------optistart--------------------------*/
 .optistarttxt1{position:absolute; top:200px; left:120px}
@@ -233,3 +233,4 @@
 .optienrichtxt16{position:absolute; top:520px; left:100px}
 .optienrichtxt17{position:absolute; top:240px; left:735px}
 
+.main{opacity:0;}

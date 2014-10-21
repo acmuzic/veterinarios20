@@ -9,7 +9,7 @@
 <link href="../../css/style.css" rel="stylesheet">
 <link href="../../css/style-perro.css" rel="stylesheet">
 <script type="text/javascript" src="../../js/jquery.min.js"></script>
-<script type="text/javascript" src="../../js/jquery.transit.min"></script>
+<script type="text/javascript" src="../../js/jquery.transit.min.js"></script>
 </head>
 
 <body>
@@ -23,13 +23,20 @@
    <div class="optistarttxt3"><img src="../../img/perro/optistart/optistartxt3.png"></div>
    <div class="optistarttxt4"><img src="../../img/perro/optistart/optistartxt4.png"></div>
   
-  <div class="anterior"><a href="../../index.html"><img src="../../img/btn-anterior.png"></a></div>
+  <div class="anterior"><a href="../optistart.html"><img src="../../img/btn-anterior.png"></a></div>
   <div class="siguiente"><a href="optistart-3.html"><img src="../../img/btn-siguiente.png"></a></div>
 
 </div>
 <!---/main--> 
 
 </body>
-
-</body>
+<script>
+$(".main").animate({ opacity: 1}, 500, function() {
+	$(".anterior").animate({ opacity: 1}, 500, function() {
+		$(".siguiente").animate({ opacity: 1}, 500, function() {
+	
+		});
+	});
+});
+</script>
 </html>

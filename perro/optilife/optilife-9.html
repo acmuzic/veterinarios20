@@ -9,7 +9,7 @@
 <link href="../../css/style.css" rel="stylesheet">
 <link href="../../css/style-perro.css" rel="stylesheet">
 <script type="text/javascript" src="../../js/jquery.min.js"></script>
-<script type="text/javascript" src="../../js/jquery.transit.min"></script>
+<script type="text/javascript" src="../../js/jquery.transit.min.js"></script>
 </head>
 
 <body>
@@ -29,6 +29,13 @@
 <!---/main--> 
 
 </body>
-
-</body>
+<script>
+$(".main").animate({ opacity: 1}, 500, function() {
+	$(".anterior").animate({ opacity: 1}, 500, function() {
+		$(".siguiente").animate({ opacity: 1}, 500, function() {
+	
+		});
+	});
+});
+</script>
 </html>

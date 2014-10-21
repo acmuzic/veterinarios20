@@ -8,11 +8,11 @@
 <meta name="author" content="">
 <link href="css/style.css" rel="stylesheet">
 <script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.transit.min"></script>
+<script type="text/javascript" src="js/jquery.transit.min.js"></script>
 </head>
 
 <body>
-<div class="main">
+<div class="main" style="opacity:0;">
   <div class="headerhome"><a href="index.html"><img src="img/head.png"></a></div>
   
   <div class="calendario"><img src="img/calendario/calendario-diciembre.png"></div>
@@ -24,6 +24,9 @@
 <!---/main--> 
 
 </body>
+<script>
+$(".main").animate({ opacity: 1}, 500, function() {
 
-</body>
+});
+</script>
 </html>

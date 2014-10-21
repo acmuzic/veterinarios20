@@ -6,24 +6,33 @@
 <title>Pro Plan</title>
 <meta name="description" content="">
 <meta name="author" content="">
-<link href="../../css/style.css" rel="stylesheet">
-<link href="../../css/style-perro.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
+<link href="../css/style-perro.css" rel="stylesheet">
 <script type="text/javascript" src="../js/jquery.min.js"></script>
-<script type="text/javascript" src="../js/jquery.transit.min"></script>
+<script type="text/javascript" src="../js/jquery.transit.min.js"></script>
 </head>
 
 <body>
 <div class="main">
-  <div class="header"><a href="index.html"><img src="../img/head.png"></a></div>
+  <div class="header"><a href="../index.html"><img src="../img/head.png"></a></div>
   <div class="ruedapeque"><a href="#"><img src="../img/rueda-p.png"></a></div>
   <div class="titcategoria1g"><img src="../img/optienrich-tg.png"></div>
   <div class="portada"><img src="../img/optienrich-portada.png"></div>
   <div class="portada"><img src="../img/optienrich-portada-perro.png"></div>
-  <div class="siguiente"><a href="#"><img src="../img/btn-siguiente.png"></a></div>
+  <div class="siguiente"><a href="optienrich/optienrich-2.html"><img src="../img/btn-siguiente.png"></a></div>
 </div>
 <!---/main--> 
 
 </body>
-
-</body>
+<script>
+$(".main").animate({ opacity: 1}, 500, function() {
+	$(".titcategoria1g").animate({ opacity: 1}, 500, function() {
+		$(".portada").animate({ opacity: 1}, 500, function() {
+			$(".siguiente").animate({ opacity: 1}, 500, function() {
+	
+			});
+		});
+	});
+});
+</script>
 </html>
