@@ -20,6 +20,19 @@
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
 	display: block;
 }
+
+a {outline : none;}
+a img {outline : none;}
+img {border : 0;}
+a:hover, a:active, a:focus {
+  border : 0;
+  outline : none;
+}
+
+img.map, map area{
+    outline: none;
+}
+
 img {
 	height: auto;
 	max-width: 100%;
@@ -76,13 +89,13 @@ h6 {
 	clear:both;
 }
 .main {
-	width:1277px;
-	height:797px;
-	padding:0;
+	width: 1277px;
+	height: 797px;
+	padding: 0;
 	position: absolute;
-	overflow:hidden;
-	background:url(../img/back.gif) no-repeat;
-	
+	overflow: hidden;
+	background: url(../img/back.gif) no-repeat;
+	left: 1px;	
 }
 /*----------------------------------------------------------*/
 /*----------------------------------------------------------*/
@@ -131,7 +144,7 @@ h6 {
 /*----------------------------------------------------------*/
 /*-----------------------index perro-------------------------------*/
 
-.ruedaperro1{ position:absolute; top:160px; left:630px; opacity:0;}
+.ruedaperro1{ position:absolute; top:160px; left:630px; opacity:0; width:577px; height:550px;}
 
 #nav1 {	position:absolute; top:600px; left:60px}
 #nav1 ul {margin:0; padding:0; list-style-type:none; display:block}
@@ -209,5 +222,3 @@ ul#menu3 li .menu3-2:hover{ background:url(../img/navback-2c-h.png)}
 .evento6{position:absolute; top:581px; left:474px;}
 
 .evento7{position:absolute; top:678px; left:623px;}
-
-
